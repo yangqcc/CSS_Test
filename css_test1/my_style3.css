@@ -1,0 +1,35 @@
+/**
+通过属性进行选择
+ */
+a[href="http://www.baidu.com"] {
+    font-style: italic;
+    color: aqua;
+}
+
+*[title] {
+    font-weight: bold;
+}
+
+a[title="W3C"] {
+    font-weight: inherit;
+    font-size: 1000%;
+}
+
+p[class="warning"] {
+    color: aqua;
+}
+
+/**
+对于属性能接受的词列表（词之间用空格符分割），可以根据其中的任意一个词进行选择
+和html中的p.warning同样效果
+ */
+p[class~="warning"] {
+    font-size: 200%;
+}
+
+/**
+对于class具体进行匹配，写成p[class="warning"]不能匹配第三个标签，只能写成下面这样才能匹配
+ */
+p[class="warning urgent"]{
+    font-style: italic;
+}

@@ -1,0 +1,26 @@
+/**
+CSS类选择器
+ */
+.warning {
+    font-weight: bold;
+}
+
+/**
+class属性包含warning的所有的段落(<p>标签)，span不是一个段落，所以span颜色不会变
+ */
+p.warning {
+    color: blue;
+}
+
+span.warning {
+    color: red;
+    font-style: italic;
+}
+
+.urgent {
+    font-style: oblique;
+}
+
+.warning.urgent {
+    color: blueviolet;
+}

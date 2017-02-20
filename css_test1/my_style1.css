@@ -1,0 +1,29 @@
+h1 {
+    color: chartreuse;
+}
+
+/**
+如果申明不加分号，可能导致解析错误，该样式实现失败
+ */
+
+p {
+    font-family: medium;
+    color: blueviolet;
+    background: aqua;
+}
+
+/**
+样式应用于所有的标签，直接选择文档元素
+ */
+h2, h3, h4, h5, h6 {
+    color: gray;
+    background: white;
+    padding: 0.5em;
+    border: 1px solid black;
+    font-family: Chiller, sans-serif;
+}
+
+/*
+body{
+    background-color: brown;
+}*/
