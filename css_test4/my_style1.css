@@ -1,0 +1,28 @@
+/**
+由于有些浏览器不能识别颜色关键字，为了更加安全，要用rgb或者十六进制三元组来定义
+ */
+p.one {
+    color: rgb(0%, 0%, 0%);
+}
+
+p.two {
+    color: rgb(20%, 20%, 20%);
+}
+p.three {
+    color: rgb(40%, 40%, 40%);
+}
+p.four {
+    color: rgb(60%, 60%, 60%);
+}
+p.five {
+    color: rgb(80%, 80%, 80%);
+}
+p.six {
+    color: rgb(0, 0, 0);
+}
+p.seven {
+    color: rgb(51, 51, 51);
+}
+p.eight {
+    color: rgb(102, 102, 102);
+}

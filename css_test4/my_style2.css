@@ -1,0 +1,27 @@
+/**
+1个"em"定义为一种给定字体的font-size值
+如果一个元素的font-size为14像素，那么对于该元素，1em
+就等于14像素
+这个值随元素的不同而不同
+ */
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+p {
+    font-size: 12px;
+}
+
+h1, h2, p {
+    margin-left: 1em;
+}
+/**
+设置em时，会根据父元素的字体大小改变
+ */
+small {
+    font-size: 0.8em;
+}
