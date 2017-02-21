@@ -1,0 +1,49 @@
+/**
+CSS推荐顺序
+ */
+
+/*
+a:link {
+    color: gold;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    font-size: xx-large;
+    color: aliceblue;
+}
+
+a:active {
+    font-size: xx-small;
+}*/
+
+a:link {
+    color: gold;
+}
+
+/*a:link:hover {
+    font-size: xx-large;
+    color: transparent;
+}
+
+a:link:active {
+    font-size: xx-small;
+}*/
+
+a:visited {
+    color: red;
+}
+
+a:visited:hover {
+    font-style: inherit;
+    color: black;
+}
+
+a:visited:active {
+    font-size: xx-large;
+    color: aqua;
+}
+
