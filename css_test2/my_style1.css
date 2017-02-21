@@ -1,0 +1,68 @@
+/*
+后代选择器
+ */
+ul li {
+    color: gold;
+}
+
+/*
+不论隐藏得多深，都能找到你
+ */
+ul em {
+    color: aqua;
+    font-style: italic;
+    font-size: large;
+}
+
+/*
+该选择器只能选择直接后继元素
+ */
+h1 > strong {
+    color: red;
+}
+
+/**
+指示作为超链接(即有一个href属性)，并指向一个未访问地址的所有锚，必须要有href属性
+ */
+a:link {
+    color: burlywood;
+}
+
+a:visited {
+    color: red;
+    font-style: italic;
+}
+
+a:hover {
+    font-style: italic;
+    font-size: x-large;
+}
+
+/*
+伪类顺序很重要，link-visited-focus-hover-active
+active，用户鼠标指向超链接，点击鼠标是，便会激活这个超链接，:active指向这个超链接，
+这是个动态伪类
+ */
+
+a:active {
+    font-size: xx-small;
+}
+
+input {
+    width: 200px;
+    color: darkgoldenrod;
+}
+
+input:focus {
+    font-size: xx-small;
+    font-style: italic;
+    width: 200px;
+    color: aqua;
+}
+
+/**
+body所有的元素设置动态伪类，实现动态效果
+ */
+body *:hover {
+    background: gold;
+}

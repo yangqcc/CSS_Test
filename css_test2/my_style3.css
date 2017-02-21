@@ -1,0 +1,57 @@
+/**
+伪元素选择器
+伪元素能够在文档中插入假象元素
+CSS2.1中定义了4个伪元素
+ */
+
+/*
+每个首字母变成其余字母的两倍
+ */
+p:first-letter {
+    font-size: 200%;
+}
+
+h2:first-letter {
+    color: gold;
+}
+
+/**
+<p>元素第一行全部改变颜色
+ */
+p:first-line {
+    color: aqua;
+}
+
+a:first-letter {
+    color: red;
+}
+
+a[href="http://www.baidu.com"]:hover {
+    font-size: large;
+    color: ghostwhite;
+}
+
+a[href="http://taobao.com"]:active {
+    font-size: xx-large;
+}
+
+#myDiv:first-letter {
+    font-size: xx-large;
+    font-style: italic;
+}
+
+#myDiv:first-line {
+    color: cornflowerblue;
+}
+
+/**
+设置之前和之后元素样式
+ */
+h2:before {
+    content: "前置内容-";
+}
+
+h2:after {
+    content: "-后置内容";
+    color: slateblue;
+}

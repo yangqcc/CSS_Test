@@ -1,0 +1,25 @@
+/*
+某个元素第一个子元素的所有的p元素设置为粗体
+并不是p元素下的所有的第一个元素
+ */
+p:first-child {
+    font-weight: bold;
+    color: gold;
+}
+
+p > em {
+    color: red;
+}
+
+/**
+某元素第一个子元素所有的li元素设置为大写
+ */
+li:first-child {
+    text-transform: uppercase;
+    color: aqua;
+}
+
+ul:nth-child(2) {
+    font-style: italic;
+    color: green;
+}
