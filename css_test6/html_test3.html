@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>html_test3</title>
+    <style>
+        .container {
+            height: 210px;
+            width: 460px;
+            border: 5px solid black;
+        }
+
+        ul {
+            height: 210px;
+            overflow: hidden;
+            margin-right: -20px;
+        }
+
+        li {
+            height: 100px;
+            width: 100px;
+            background-color: aqua;
+            float: left;
+            margin-right: 20px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+<!--负元素来扩大范围-->
+<div class="container">
+    <ul>
+        <li>子元素1</li>
+        <li>子元素2</li>
+        <li>子元素3</li>
+        <li>子元素4</li>
+        <li>子元素5</li>
+        <li>子元素6</li>
+        <li>子元素7</li>
+        <li>子元素8</li>
+    </ul>
+</div>
+<!--利用margin_left以及margin-top的负值来使元素绝对居中-->
+<div style="width: 100px;height: 100px;background-color: rebeccapurple;position: absolute;left: 50%;top: 50%;margin-left: -50px;margin-top: -50px;">
+</div>
+
+<script type="text/javascript">
+Array.isArray()
+</script></body>
+</html>

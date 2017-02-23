@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>html_test2</title>
+</head>
+<body>
+<div style="height: 100px;background-color: red;border: solid 1px;">
+    <div style="height:50px;margin-bottom: -10000px;background-color: bisque">div</div>
+</div>
+<!--margin-bottom和下面的margin-top会重叠，所以上下两个div边距为50px-->
+<div style="margin-top: 20px;height: 100px;background-color: green;margin-bottom: 50px;"></div>
+<div style="background-color: aqua;width: 420px;padding: 10px;margin-top: 50px;border: solid 1px;">
+    <p style="margin-top: -61px;margin-left: 10px;margin-right: 10px;margin-bottom: 0px;border: 3px solid gray;">
+        A paragraph
+    </p>
+    <!-- A div也会向上拉-61个像素-->
+    A div
+</div>
+
+<div style="width: 420px;margin-top: 50px;background-color: gold;height: 400px">
+    <div style="margin-bottom: -50px;margin-right: 10px;margin-left: 10px;border: 2px solid gray">A paragraph
+    </div>
+</div>
+<p>The next paragraph</p>
+</body>
+</html>

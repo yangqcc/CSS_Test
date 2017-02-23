@@ -1,0 +1,33 @@
+/*
+body {
+    font-family: serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: sans-serif;
+}
+
+span input {
+    font-family: monospace;
+}
+
+p.signature {
+    font-family: cursive;
+}*/
+
+h1 {
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    font-family: "Arial Narrow", sans-serif;
+}
+
+h3 {
+    font-family: "Arial Narrow", Calibri, "Bodoni MT";
+}
+
+p {
+    font-family: Times New Roman, Serif;
+}
+
